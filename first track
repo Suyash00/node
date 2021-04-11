@@ -1,0 +1,3 @@
+var readlineSync = require('readline-Sync');
+var username = readlineSync.question("What is your name");
+console.log(username);
